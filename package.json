@@ -1,0 +1,24 @@
+{
+  "name": "jest-ts",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ilja Kroonen",
+  "license": "MIT",
+  "devDependencies": {
+    "jest-cli": "^15.1.1",
+    "typescript": "^1.8.10"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/jest-preprocessor.js",
+    "collectCoverage": true,
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js"
+    ]
+  }
+}
